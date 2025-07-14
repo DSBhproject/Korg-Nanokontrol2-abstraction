@@ -1,6 +1,9 @@
 # [korg.nanokontrol2 nºport]
 GOP abstraction form korg nanokontrol2 controller for plug and play use on Pure Data
 
+![Nanokontrol2 in Pure Data](gui.jpg)
+
+
  # 🎛️ Korg Nanokontrol 2 Abstraction for Pure Data
 
 A Pure Data abstraction that replicates the interface of the **Korg Nanokontrol 2** MIDI controller using **Graph-On-Parent (GOP)** functionality. It allows intuitive, zero-patching control of elements in the parent patch, with instant visual feedback.
