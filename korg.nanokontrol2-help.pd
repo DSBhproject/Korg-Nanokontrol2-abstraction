@@ -38,7 +38,7 @@
 #X obj 1390 416 cnv 19 400 535 empty empty empty 20 12 0 12 #e0e0e0 #404040 0;
 #X obj 1408 422 r \$0-start;
 #X floatatom 1408 446 0 0 0 1 Play - - 0;
-#X floatatom 1408 506 0 0 0 1 Time\ between\ each\ sixteenth\ note\ (grid\ side\ in\ ms) - - 0;
+#X floatatom 1408 506 0 0 0 1 Time\ between\ each\ sixteenth\ note\ in\ ms\ (grid\ size) - - 0;
 #X obj 1408 482 r \$0-pulse;
 #X obj 1407 537 r \$0-counter;
 #X floatatom 1407 611 0 0 0 1 Grid\ counter\ (16th_note) - - 0;
