@@ -23,5 +23,7 @@ A Pure Data abstraction that replicates the interface of the **Korg Nanokontrol 
 3. Send and receive data to/from parent patch using the method explains in the help patch.
    ```pd
    [korg.nanokontrol2 1]
-
+## NOTE: It has only one creation argument: number port and it should match the number choose in midi setting dialog.
+## NOTE: Else library is necessary to use it. 
+## NOTE: using multiple instances of [korg.nanokontrol2] is possible but without open the help patch. 
 ## NOTE: Is neceessary to use the abs in conjunction with its respetive patch of the Korg Editor which is provided as well. 
