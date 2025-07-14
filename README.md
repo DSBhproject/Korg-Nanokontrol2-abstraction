@@ -20,7 +20,7 @@ A Pure Data abstraction that replicates the interface of the **Korg Nanokontrol 
 
 1. Open Pure Data and configure your desired MIDI port number in `Media > MIDI settings`.
 2. Create an instance of the abstraction using the port number:
-3. Send and receive data to/from parent patch using the method explains in the help patch.
+3. Send and receive data to/from parent patch. To receive data from the controller, just use its send outlet and filter with [route nºparam] to get the control value. To send data to the controller, use the receive inlet to send [param_set nºparam value( or [param_label nºparam name_param( messages to the controller. This is more explained in details on the help patch. 
    ```pd
    [korg.nanokontrol2 1]
 ## NOTE: It has only one creation argument: number port and it should match the number choose in midi setting dialog.
