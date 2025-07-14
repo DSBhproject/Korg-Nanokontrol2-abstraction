@@ -24,6 +24,7 @@ A Pure Data abstraction that replicates the interface of the **Korg Nanokontrol 
    ```pd
    [korg.nanokontrol2 1]
 ## NOTE: It has only one creation argument: number port and it should match the number choose in midi setting dialog.
-## NOTE: Else library is necessary to use it. 
+## NOTE: Else library is necessary to use it.
+## NOTE: // unnasigned buttons the "Loop", "Backward", and "Forward" buttons are currently unassigned. When pressed, they flash yellow to indicate their availability for future functionality.
 ## NOTE: using multiple instances of [korg.nanokontrol2] is possible but without open the help patch. 
 ## NOTE: Is neceessary to use the abs in conjunction with its respetive patch of the Korg Editor which is provided as well. 
