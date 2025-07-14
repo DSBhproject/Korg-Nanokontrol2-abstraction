@@ -20,3 +20,5 @@ A Pure Data abstraction that replicates the interface of the **Korg Nanokontrol 
 3. Send and receive data to/from parent patch using the method explains in the help patch.
    ```pd
    [korg.nanokontrol2 1]
+
+## NOTE: Is neceessary to use the abs in conjunction with its respetive patch of the Korg Editor which is provided as well. 
